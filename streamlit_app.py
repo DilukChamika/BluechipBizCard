@@ -49,7 +49,7 @@ setting_bg()
 # Database Connection._.
 Mydb = sql.connect(host = "sql12.freemysqlhosting.net",
                    user = "sql12732660",
-                   password = "",
+                   password = "lDaekZwlyj",
                    database = "sql12732660")
 mycursor = Mydb.cursor(buffered=True)
 
