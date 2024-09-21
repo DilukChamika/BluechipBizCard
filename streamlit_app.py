@@ -47,10 +47,10 @@ def setting_bg():
 setting_bg()
 
 # Database Connection._.
-Mydb = sql.connect(host = "sql208.infinityfree.com",
-                   user = "if0_37356821",
-                   password = "1354APuB77ysf8a",
-                   database = "if0_37356821_bixcard")
+Mydb = sql.connect(host = "sql12.freemysqlhosting.net",
+                   user = "sql12732660",
+                   password = "",
+                   database = "sql12732660")
 mycursor = Mydb.cursor(buffered=True)
 
  # --------The command to create the table has already been executed. -----
