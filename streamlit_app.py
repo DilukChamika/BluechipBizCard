@@ -47,10 +47,10 @@ def setting_bg():
 setting_bg()
 
 # Database Connection._.
-Mydb = sql.connect(host = "localhost",
-                   user = "root",
-                   password = "",
-                   database = "BussinessCard")
+Mydb = sql.connect(host = "dilukc.mysql.pythonanywhere-services.com",
+                   user = "dilukc",
+                   password = "Diluk#1234",
+                   database = "dilukc$bixcard")
 mycursor = Mydb.cursor(buffered=True)
 
  # --------The command to create the table has already been executed. -----
