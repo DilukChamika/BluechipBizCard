@@ -50,7 +50,8 @@ setting_bg()
 Mydb = sql.connect(host = "dilukc.mysql.pythonanywhere-services.com",
                    user = "dilukc",
                    password = "Diluk#1234",
-                   database = "dilukc$bixcard")
+                   database = "dilukc$bixcard",
+                   port=3306)
 mycursor = Mydb.cursor(buffered=True)
 
  # --------The command to create the table has already been executed. -----
