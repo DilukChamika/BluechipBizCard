@@ -12,6 +12,9 @@ import cv2
 import re
 import time
 
+
+
+github_url = "https://github.com/DilukChamika"
 # To create streamlit First step._.
 def set_page_config():
     st.set_page_config(
