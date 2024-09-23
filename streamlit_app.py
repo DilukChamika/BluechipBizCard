@@ -55,20 +55,20 @@ mycursor = Mydb.cursor(buffered=True)
 
  # --------The command to create the table has already been executed. -----
  
-# mycursor = Mydb.cursor()
-# mycursor.execute("CREATE TABLE Card_data("
-#                  "id INT AUTO_INCREMENT PRIMARY KEY,"
-#                  "name VARCHAR(255),"
-#                  "designation VARCHAR(255),"
-#                  "company VARCHAR(255),"
-#                  "contact VARCHAR(255),"
-#                  "email VARCHAR(255),"
-#                  "website VARCHAR(255),"
-#                  "address VARCHAR(255),"
-#                  "city VARCHAR(255),"
-#                  "state VARCHAR(255),"
-#                  "pincode VARCHAR(255),"
-#                  "image LONGBLOB )")
+mycursor = Mydb.cursor()
+mycursor.execute("CREATE TABLE Card_data("
+                 "id INT AUTO_INCREMENT PRIMARY KEY,"
+                 "name VARCHAR(255),"
+                 "designation VARCHAR(255),"
+                 "company VARCHAR(255),"
+                 "contact VARCHAR(255),"
+                 "email VARCHAR(255),"
+                 "website VARCHAR(255),"
+                 "address VARCHAR(255),"
+                 "city VARCHAR(255),"
+                 "state VARCHAR(255),"
+                 "pincode VARCHAR(255),"
+                 "image LONGBLOB )")
 
 
 # This is selecting option menu._.
